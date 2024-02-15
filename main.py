@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 from keep_alive import keep_alive
 import time
 
-TELEGRAM_BOT_TOKEN = '6329230393:AAGGOYXPBI6heTA3SFFRr1bZ-Dj9QIy9DDE'
+TELEGRAM_BOT_TOKEN = os.environ.get('TOKEN')
 TELEGRAM_CHAT_ID = '@Hindi_News_In'
 RSS_FEED_URL = 'https://hindi-news-aptak.blogspot.com/feeds/posts/default?alt=rss'
 
